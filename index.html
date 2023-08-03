@@ -50,7 +50,7 @@
 </head>
 <body class="font-eb">
      <!--header section-->
-    <header class="container mx-auto">
+    <header class="container px-5 md:mx-auto lg:mx-auto">
         <!--navbar Section-->
         <nav>
             <div class="navbar bg-base-100">
@@ -84,7 +84,7 @@
                     <li><a>Contact Us</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
+                <div class="navbar-end hidden md:block lg:block">
                   <a class="btn bg-primary_color text-white">Free Consultation</a>
                 </div>
               </div>
@@ -112,11 +112,11 @@
     </header>
 
     <!--main section-->
-    <main class="container mx-auto mt-16 lg:mt-28">
+    <main class="container px-5 mt-16 md:mx-auto lg:mt-28 lg:mx-auto ">
       <!--legal practice area section-->
       <div class="text-center">
         <h1 class="text-3xl font-bold pb-6 text-text_title text-center lg:text-4xl lg:font-extrabold">The Legal Practice Area</h1>
-        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <p class="text-center">There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form, by injected humour.</p>
       </div>
 
       <!--card section -->
@@ -231,7 +231,7 @@
 
       
 
-      <div class="container relative carousel h-[600px] w-full mt-16">
+      <div class="container relative carousel h-auto lg:h-[600px] w-full mt-16">
         <div id="slide1" class="carousel-item  w-full">
           <img src="./images/slider-1.jpg" class="w-full lg:h-[600px] " />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -239,11 +239,11 @@
               <a href="#slide2" class="btn btn-circle text-white bg-transparent border-transparent">❯</a>
             </div>
           
-          <div class="absolute container max-w-2xl mx-auto top-20 left-32 lg:top-44 lg:right-24 text-center">
+          <div class="absolute container max-w-2xl mx-auto top-10 left-2 lg:top-44 lg:right-24 text-center">
           <div class=" flex flex-col items-center">
             <img src="./images/1.jpg" class=" h-16 w-16  rounded-full lg:h-20 lg:w-20" alt="">
-            <h2 class="text-2xl font-extrabold text-white pt-6 pb-2">Awlad Hossain</h2>
-            <h4 class="text-white" >UIX Designer</h4>
+            <h2 class="text-xl text-white font-bold pt-4  lg:font-extrabold lg:text-2xl lg:pt-6 ">Awlad Hossain</h2>
+            <h4 class="text-white text-base" >UIX Designer</h4>
             <p class="text-designer_text hidden lg:block pt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
   
           </div>
@@ -257,10 +257,10 @@
             <a href="#slide1" class="btn btn-circle text-white bg-transparent border-transparent">❮</a> 
             <a href="#slide3" class="btn btn-circle text-white bg-transparent border-transparent">❯</a>
           </div>
-          <div class="absolute container max-w-2xl mx-auto top-20 left-32 lg:top-44 lg:right-24 text-center">
+          <div class="absolute container max-w-2xl mx-auto top-10 left-2 lg:top-44 lg:right-24 text-center">
             <div class=" flex flex-col items-center">
               <img src="./images/1.jpg" class=" h-16 w-16  rounded-full lg:h-20 lg:w-20" alt="">
-              <h2 class="text-2xl font-extrabold text-white pt-6 pb-2">Awlad Hossain</h2>
+              <h2 class="text-xl font-bold text-white pt-4 lg:pt-6 lg:pb-2 lg:text-2xl lg:font-extrabold">Awlad Hossain</h2>
               <h4 class="text-white" >UIX Designer</h4>
               <p class="text-designer_text hidden lg:block pt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
     
@@ -273,10 +273,10 @@
             <a href="#slide2" class="btn btn-circle text-white bg-transparent border-transparent">❮</a> 
             <a href="#slide1" class="btn btn-circle text-white bg-transparent border-transparent">❯</a>
           </div>
-          <div class="absolute container max-w-2xl mx-auto top-20 left-32 lg:top-44 lg:right-24 text-center">
+          <div class="absolute container max-w-2xl mx-auto top-10 left-2 lg:top-44 lg:right-24 text-center">
             <div class=" flex flex-col items-center">
               <img src="./images/1.jpg" class=" h-16 w-16  rounded-full lg:h-20 lg:w-20" alt="">
-              <h2 class="text-2xl font-extrabold text-white pt-6 pb-2">Awlad Hossain</h2>
+              <h2 class="text-xl  text-white pt-4 lg:pt-6 lg:pb-2 lg:font-extrabold lg:text-2xl">Awlad Hossain</h2>
               <h4 class="text-white" >UIX Designer</h4>
               <p class="text-designer_text hidden lg:block pt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
     
@@ -357,7 +357,7 @@
    <div class="container flex flex-col gap-6 justify-between items-center mt-16 lg:flex-row">
     <div class=" flex-1 grid grid-cols-2">
       <!--first grid section-->
-      <div class="card bg-gray-200 rounded-none border-b-2 border-r-2 border-gray-300 p-8">
+      <div class="card bg-gray-200 rounded-none border-b-2 border-r-2 border-gray-300  p-8">
         <figure class="px-10 pt-10">
           <img src="./images/address.png" alt="Shoes" class="" />
         </figure>
@@ -415,15 +415,15 @@
     <div class="flex flex-1 flex-col gap-8 ">
       
 <!-- xs -->
-<input type="text" placeholder="Type here" class="input input-md w-full max-w-xs h-16 lg:max-w-full    bg-gray-200" />
+<input type="text" placeholder="Type here" class="input input-md w-full max-w-lg lg:h-16 lg:max-w-full  bg-gray-200" />
 <!-- sm -->
-<input type="text" placeholder="Type here" class="input input-md w-full max-w-xs h-16 lg:max-w-full  bg-gray-200" />
+<input type="text" placeholder="Type here" class="input input-md w-full max-w-xs lg:h-16 lg:max-w-full  bg-gray-200" />
 <!-- md -->
-<input type="text" placeholder="Type here" class="input input-md w-full max-w-xs h-16 lg:max-w-full   bg-gray-200" />
+<input type="text" placeholder="Type here" class="input input-md w-full max-w-xs lg:h-16 lg:max-w-full   bg-gray-200" />
 <!-- lg -->
-<input type="text" placeholder="Type here" class="input input-lg w-full max-w-xs lg:max-w-full lg:h-52 bg-gray-200" />
+<input type="text" placeholder="Type here" class="input input-lg w-full max-w-xs h-28 lg:max-w-full lg:h-52 bg-gray-200" />
 <div class="">
-  <button class="btn lg:w-full bg-primary_color text-white">Send Message</button>
+  <button class="btn w-full bg-primary_color text-white">Send Message</button>
 </div>
     </div>
    </div>
@@ -431,8 +431,8 @@
     </main>
 
     <!--Footer Section-->
-    <div class="w-full mt-28 bg-black py-16 lg:py-28 h-auto lg:px-28">
-    <footer class="footer flex flex-col items-center  justify-around    bg-black text-base-content text-white lg:flex-row">
+    <div class="w-full mt-28  bg-black py-16 lg:py-28 h-auto lg:px-28">
+    <footer class="footer flex flex-col justify-around items-start bg-black text-base-content text-white md:flex-row lg:flex-row">
       <div class="flex-1 text-center flex flex-col items-center   lg:items-start lg:text-start ">
        <img src="./images/logo.png" alt="">
        <p class="">There are many variations of passages of <br>Lorem Ipsum available, but the <br>have suffered alteration in <br> some form, by injected humour.</p>
